@@ -1,6 +1,6 @@
 <?php
     //connection avec PDO
-    $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', 'G0muG0muN0', array(
+    $pdo = new PDO('mysql:host=localhost;dbname=test', 'root', '', array(
             PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
